@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+.bodyBox {
+    display: flex;
+}
+
+.eaglePic {
+    width: 40vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.infoBox {
+    width: 60vw;
+    height: 100vh;
+    background-color: azure;
+}
+
+.infoCard {
+    background-color: beige;
+    padding: 1px;
+}
+
+.infoPara {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5vw 20vh 5vw 5vh;
+}
+
+.groupDivs {
+    display: flex;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+}
