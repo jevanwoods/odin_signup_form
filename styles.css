@@ -20,17 +20,33 @@
 
 .infoCard {
     background-color: beige;
-    padding: 1px;
+    padding-top: 5vh;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.formCard {
+    background-color: aliceblue;
+    height: 24vh;
+    padding: 2vh 2vw;
+}
+
+.buttonCard {
+    background-color: darksalmon;
+    height: 44vh;
+    padding: 2vh 2vw;
 }
 
 .infoPara {
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 5vw 20vh 5vw 5vh;
+    margin: 2vh 2vw;
 }
 
 .groupDivs {
     display: flex;
+    padding: 1.5vh 1vw;
 }
 
 .inputBox {
