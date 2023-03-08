@@ -6,10 +6,32 @@
     display: flex;
 }
 
+.pictureBox {
+    position: relative;
+    width: 45%;
+}
+
 .eaglePic {
-    width: 40vw;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
     height: 100vh;
     object-fit: cover;
+}
+
+.slogan {
+    color: white;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 40vh;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
 }
 
 .infoBox {
