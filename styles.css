@@ -52,10 +52,12 @@
     background-color: aliceblue;
     height: 24vh;
     padding: 2vh 2vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .buttonCard {
     background-color: darksalmon;
+    z-index: -1;
     height: 44vh;
     padding: 2vh 2vw;
 }
@@ -74,4 +76,12 @@
 .inputBox {
     display: flex;
     flex-direction: column;
+}
+
+.createAccount {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: green;
+    color: aliceblue;
 }
